@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Lato;
 }
 
@@ -11,7 +11,7 @@ body{
 
 .container {
     max-width: 1140px;
-    padding: 0 ;
+    padding: 0;
     width: 100%;
     margin: 0 auto;
 }
@@ -137,40 +137,81 @@ body{
 
 
 /*катрочки товаров*/
-.card__header{
+.card__header {
     text-align: center;
     margin-bottom: 48px;
 }
-.card__header__text{
+
+.card__header__text {
     font-size: 14px;
     line-height: 17px;
     color: #9F9F9F;
 
 }
 
-.header__text__card{
+.header__text__card {
     font-size: 30px;
     line-height: 36px;
     color: #222222;
 }
-.card__features{
+
+.card__features {
     display: flex;
     justify-content: space-between;
     width: 1140px;
     flex-wrap: wrap;
+    position: relative;
 }
-.card__product{
+
+.card__product {
     width: 360px;
-    margin(none:nth-child(3)): 0 30px 30px 0;
+margin(none: nth-child(3)): 0 30 px 30 px 0;
     background: #F8F8F8;
     margin-bottom: 30px;
 }
-.bottom{
+
+.caption {
+    text-align: left;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    padding: 25px 0 13px 18px;
+}
+.card__caption{
+    text-align: left;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding: 0 28px 18px 18px;
+}
+.card__price{
+    text-align: left;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    padding: 0 0 20px 18px;
+
+}
+
+
+buttom {
     padding: 13px 38px;
     border: 1px solid #FF6A6A;
     font-size: 16px;
     line-height: 19px;
-
     color: #F26376;
+    position: absolute;
+    left: 42%;
+    margin-top: 49px;
+margin-bottom: 96px;
+}
 
+
+/*подвал*/
+.footer{
+    background:  #222224;
+    height: 341px;
+    width: 100%;
+margin-top: 191px;
 }
